@@ -1,0 +1,99 @@
+:root
+{
+  /* --darkgrey : #333a44;
+  --apricot : #515e63;
+  --classyorange: #f0a04b;
+  --citrus : #57837b;
+  --lightred : #57837b;
+  --applecore : #deeec9;
+  --white : #ffffff;
+  --green : #183a1d;
+  --limegreen : #f1ecc3; */
+  --darkgrey : #333a44;
+  --apricot : #515e63;
+  --classyorange: #f0a04b;
+  --citrus : #325288;
+  --lightred : #325288;
+  --applecore : #ffe1d5;
+  --white : #ffffff;
+  --green : #183a1d;
+  --limegreen : #f4eee8;
+  /* --darkgrey : #333a44;
+  --apricot : #3f2923;
+  --classyorange: #f0a04b;
+  --citrus : #084d36;
+  --lightred : #0a1d37;
+  --applecore : #ffd8cc;
+  --white : #ffffff;
+  --green : #183a1d;
+  --limegreen : #ffeedb;  */
+
+}
+body{
+  background-color:var(--limegreen);
+  font-family: 'Montserrat', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.card
+{
+  border-radius: 0;
+}
+.icon-nav
+{
+  height: 8vh;
+}
+.icon-foot
+{
+  width: 20vw;
+}
+.main-tool-bar
+{
+  background-color: var(--lightred);
+  color:var(--white);
+}
+.orange
+{
+    background-color: var(--lightred);
+    color:var(--white);
+}
+#map
+{
+    height:40vh;
+    width:100%;
+}
+.title-text
+{
+    border-bottom: min(0.5vh, 0.5vw) solid var(--lightred);
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: 400;
+    color: var(--darkgrey);
+}
+.dropdown-menu > li > a:hover {
+  background-image: none;
+  background-color: var(--lightred);
+  color : white;
+}
+/* Scrollbars */
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--lightred) var(--white);
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: var(--white);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--lightred);
+    border-radius: 20px;
+    border: 3px solid var(--white);
+  }

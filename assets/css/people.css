@@ -1,0 +1,31 @@
+@import url('/assets/css/index.css');
+
+.tab, .tab:hover
+{
+    color : var(--apricot);
+    background-color: white;
+    background-image: none;
+}
+
+.active
+{
+    color : white !important;
+    background-color: var(--apricot) !important;
+    background-image: none !important;
+}
+
+.fitter
+{
+    max-height : 60vh !important;
+}
+
+.image_wrap img
+{
+    width:100%;
+    transition: 250ms ease;
+    cursor: pointer;
+}
+.image_wrap img:hover
+{
+    transform: scale(1.05);
+}
